@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Form Validation Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="signup" class="form">
+            <h1>Please provide the requested information below so we can complete your request to join our email program. Please allow 3-5 days to begin receiving emails.
+            </h1>
+            <div class="form-field">
+                <label for="username">First Name: </label>
+                <input type="text" name="username" id="username" autocomplete="off">
+                <small></small>
+            </div>
+            
+            <div class="form-field">
+              <label for="lastname">Last Name: </label>
+              <input type="text" name="lastname" id="lastname" autocomplete="off">
+              <small></small>
+          </div>
+
+          <div class="form-field">
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email" autocomplete="off">
+            <small></small>
+        </div>
+
+            <div class="form-field">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
